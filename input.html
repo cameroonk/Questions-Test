@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id = "startPage" style = "visibility: visible">
+    <button onclick="start()">Start</button>
+</div>
+
+<div id = "questionPage" style = "visibility: hidden">
+
+    <p id = "question"></p>
+
+        First Question: <input type="text" id="myText" value="Answer">
+
+    <p>Click the button to Submit Your answer.</p>
+
+    <button onclick="myFunction()">Submit</button>
+
+    <p id = "answer"></p>
+
+    <object id = "pdfHelp" data="./05_Conditionals_and_Loops.2_per_page.pdf" type="application/pdf" width="100%" height="500px" style = "visibility: hidden"></object>
+
+    <script src = "./askQuestions.js">
+        // var numCorrect = 0;
+    </script>
+
+
+    <button id = "nextButton" onclick = "next()" >Next</button>
+    
+
+</div>
+
+</body>
+</html>
